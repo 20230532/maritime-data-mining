@@ -28,7 +28,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 24,
+      "execution_count": null,
       "metadata": {
         "id": "2Jt4BNwQxd09"
       },
@@ -48,35 +48,10 @@
         "print(df)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "FYn3_tKHx15X",
-        "outputId": "174b23ce-d419-416a-fe02-496a6faa00ba"
+        "id": "FYn3_tKHx15X"
       },
-      "execution_count": 25,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "      id   age city    f1  f2    f3    f4         f5  subscribed   views\n",
-            "0   id01   2.0   서울   NaN   0  gold  ENFJ  91.297791  2021-07-16  6820.0\n",
-            "1   id02   9.0   서울  70.0   1   NaN  ENFJ  60.339826  2021-05-12  2534.0\n",
-            "2   id03  27.0   서울  61.0   1  gold  ISTJ  17.252986  2021-03-16  7312.0\n",
-            "3   id04  75.0   서울   NaN   2   NaN  INFP  52.667078  2021-07-21   493.0\n",
-            "4   id05  24.0   서울  85.0   2   NaN  ISFJ  29.269869  2021-03-07  1338.0\n",
-            "..   ...   ...  ...   ...  ..   ...   ...        ...         ...     ...\n",
-            "75  id75  63.0   경기  47.0   0  gold  ESTP  20.129444  2021-06-12  6779.0\n",
-            "76  id76  71.0   경기  12.0   0   NaN  ENTJ  83.685380  2021-07-28  2872.0\n",
-            "77  id77  77.0   경기  31.0   0   NaN  INFP  98.429899  2021-01-16  1518.0\n",
-            "78  id78  92.0   경기  96.0   1  gold  INTJ  69.730313  2021-10-27  7565.0\n",
-            "79  id79  30.0   경기   NaN   0  gold  INTJ  80.138280  2021-08-14  8777.0\n",
-            "\n",
-            "[80 rows x 10 columns]\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -86,22 +61,10 @@
         "print(std1)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "Do1CwHOYx8yT",
-        "outputId": "95f43a50-9e81-4331-fbb5-0fbdffa1688d"
+        "id": "Do1CwHOYx8yT"
       },
-      "execution_count": 26,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "20.574853076621935\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -112,22 +75,10 @@
         "print(med)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "jW9AsZ3Pybyz",
-        "outputId": "6f3f66ed-26cb-4abe-a38f-b9aec3b09f1b"
+        "id": "jW9AsZ3Pybyz"
       },
-      "execution_count": 27,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "68.0\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -135,35 +86,10 @@
         "print(df)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "M0xuzpwdzDY6",
-        "outputId": "886fb7d0-4ff3-4cc8-f33b-6c884771c5f0"
+        "id": "M0xuzpwdzDY6"
       },
-      "execution_count": 28,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "      id   age city    f1  f2    f3    f4         f5  subscribed   views\n",
-            "0   id01   2.0   서울  68.0   0  gold  ENFJ  91.297791  2021-07-16  6820.0\n",
-            "1   id02   9.0   서울  70.0   1   NaN  ENFJ  60.339826  2021-05-12  2534.0\n",
-            "2   id03  27.0   서울  61.0   1  gold  ISTJ  17.252986  2021-03-16  7312.0\n",
-            "3   id04  75.0   서울  68.0   2   NaN  INFP  52.667078  2021-07-21   493.0\n",
-            "4   id05  24.0   서울  85.0   2   NaN  ISFJ  29.269869  2021-03-07  1338.0\n",
-            "..   ...   ...  ...   ...  ..   ...   ...        ...         ...     ...\n",
-            "75  id75  63.0   경기  47.0   0  gold  ESTP  20.129444  2021-06-12  6779.0\n",
-            "76  id76  71.0   경기  12.0   0   NaN  ENTJ  83.685380  2021-07-28  2872.0\n",
-            "77  id77  77.0   경기  31.0   0   NaN  INFP  98.429899  2021-01-16  1518.0\n",
-            "78  id78  92.0   경기  96.0   1  gold  INTJ  69.730313  2021-10-27  7565.0\n",
-            "79  id79  30.0   경기  68.0   0  gold  INTJ  80.138280  2021-08-14  8777.0\n",
-            "\n",
-            "[80 rows x 10 columns]\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -173,22 +99,10 @@
         "print(std2)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "0wjpKNHQzIrh",
-        "outputId": "45cdf38f-4a06-44f8-c712-e5baf2ab5260"
+        "id": "0wjpKNHQzIrh"
       },
-      "execution_count": 29,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "17.010788646613275\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -198,22 +112,10 @@
         "print(round(result,2))"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "l1FuMNWbzO42",
-        "outputId": "cc7734a9-0496-4893-d032-58c771342b53"
+        "id": "l1FuMNWbzO42"
       },
-      "execution_count": 30,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "3.56\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -225,7 +127,7 @@
       "metadata": {
         "id": "7tWSINaO6osj"
       },
-      "execution_count": 31,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -238,7 +140,7 @@
       "metadata": {
         "id": "mit35zr27-_O"
       },
-      "execution_count": 32,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -247,22 +149,10 @@
         "print(std, mean)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "XoQneAr7849f",
-        "outputId": "087c0c3b-aa4a-4bd4-e617-f5214a27b6e8"
+        "id": "XoQneAr7849f"
       },
-      "execution_count": 33,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "30.442758522588697 50.963\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -273,22 +163,10 @@
         "print(lower, upper)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "AG-0GrXo9FF2",
-        "outputId": "82d6f59a-1009-4648-ab08-8bea8db8e8f6"
+        "id": "AG-0GrXo9FF2"
       },
-      "execution_count": 34,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "5.298862216116952 96.62713778388306\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -300,7 +178,7 @@
       "metadata": {
         "id": "yRJauS7Q9OUZ"
       },
-      "execution_count": 35,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -310,22 +188,10 @@
         "print(df[cond1|cond2]['age'].sum())"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "rZDEm-9s9Zyn",
-        "outputId": "bc8dd3cf-ede8-4278-9ec5-f95b94623f2a"
+        "id": "rZDEm-9s9Zyn"
       },
-      "execution_count": 36,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "473.5\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
